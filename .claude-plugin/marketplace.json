@@ -14,7 +14,7 @@
       "category": "legal",
       "source": {
         "source": "github",
-        "repo": "alfred-intelligence/kostnadsrakning-skill"
+        "repo": "Mr-RedHat-fb/kostnadsrakning-skill"
       }
     },
     {
@@ -32,7 +32,7 @@
       "category": "productivity",
       "source": {
         "source": "github",
-        "repo": "alfred-intelligence/project-design-skill"
+        "repo": "Mr-RedHat-fb/project-design-skill"
       }
     }
   ]
