@@ -1,22 +1,26 @@
 {
-  "// comment-1": "TODO: This is the marketplace manifest. 'name' is the id users type after '@' when installing (e.g. kebab-it@alfred).",
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "alfred",
-
-  "// comment-2": "TODO: Owner metadata — shown to users browsing the marketplace. Update email/url if you want.",
+  "description": "Private Claude Code plugin marketplace for the alfred-intelligence organization.",
   "owner": {
     "name": "Mr.RedHat",
     "email": "mrredhat317@gmail.com",
     "url": "https://github.com/mr-redhat-fb"
   },
-
-  "// comment-3": "TODO: Each entry in 'plugins' is one installable plugin. Add new entries as you build kebab-it-template and kebab-it-agent.",
   "plugins": [
+    {
+      "name": "kostnadsrakning",
+      "description": "Genererar svenska rättegångskostnadsräkningar som PDF med periodvis uppdelning, måldelskategorisering och sex analytiska perspektiv.",
+      "category": "legal",
+      "source": {
+        "source": "github",
+        "repo": "alfred-intelligence/kostnadsrakning-skill"
+      }
+    },
     {
       "name": "kebab-it",
       "description": "Authors and tests infrastructure change-tasks; kebab-it-agent executes via GitOps.",
       "category": "infrastructure",
-
-      "// source-comment": "TODO: 'source: github' means the plugin lives in an external repo. Alternatives: 'local' (under plugins/<name>/ in this repo) or 'git' (any URL).",
       "source": {
         "source": "github",
         "repo": "alfred-intelligence/kebab-it"
