@@ -13,6 +13,7 @@ Then install a plugin:
 ```
 /plugin install kostnadsrakning@alfred
 /plugin install kebab-it@alfred
+/plugin install project-design@alfred
 ```
 
 ## Plugins
@@ -21,6 +22,7 @@ Then install a plugin:
 |---|---|---|
 | `kostnadsrakning` | Svenska rättegångskostnadsräkningar som PDF | [kostnadsrakning-skill](https://github.com/alfred-intelligence/kostnadsrakning-skill) |
 | `kebab-it` | Infrastructure change-tasks (GitOps) | [kebab-it](https://github.com/alfred-intelligence/kebab-it) |
+| `project-design` | Software project planning packages (Phase A–C) | [project-design-skill](https://github.com/alfred-intelligence/project-design-skill) |
 
 ## Publicera en ny skill
 

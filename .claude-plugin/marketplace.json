@@ -25,6 +25,15 @@
         "source": "github",
         "repo": "alfred-intelligence/kebab-it"
       }
+    },
+    {
+      "name": "project-design",
+      "description": "Assembles complete planning packages for software projects: product design in Phase A, engineering handbook and CI/CD plan in Phase B, adaptive revisions in Phase C.",
+      "category": "productivity",
+      "source": {
+        "source": "github",
+        "repo": "alfred-intelligence/project-design-skill"
+      }
     }
   ]
 }
