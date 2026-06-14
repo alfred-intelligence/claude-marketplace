@@ -53,6 +53,7 @@ cat > "$TARGET/.claude-plugin/plugin.json" <<EOF
 {
   "\$schema": "https://anthropic.com/claude-code/plugin.schema.json",
   "name": "$NAME",
+  "version": "0.1.0",
   "description": "$DESCRIPTION",
   "author": {
     "name": "$AUTHOR_NAME",
