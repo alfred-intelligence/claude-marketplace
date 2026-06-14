@@ -41,10 +41,11 @@ run never leaves the marketplace registered. Requires `jq`.
   manifest and the missing top-level marketplace `description` surface as
   warnings, which `--strict` promotes to errors. Don't add `--strict` to CI
   until those are resolved.
-- **Repo-owner inconsistency in the manifest.** `marketplace.json` mixes
-  `Mr-RedHat-fb/...` and `alfred-intelligence/...` source repos, while the
-  README and `create-skill.sh` assume `alfred-intelligence`. Match the actual
-  repo when adding an entry; don't blindly copy one style.
+- **Always use `alfred-intelligence/...` for new plugin sources.** All manifest
+  entries now point there (README + `create-skill.sh` already assume it), and
+  it's the org this environment can push to. Avoid `Mr-RedHat-fb/...` — that
+  owner needs a separate account, and some of its repos (e.g.
+  `kostnadsrakning-skill`) don't even exist, which silently breaks install.
 - **Private plugin repos need git auth to install.** `smoke.sh` deliberately
   does *not* install plugins — it only verifies the marketplace manifest loads.
 - **`marketplace remove` leaves `"extraKnownMarketplaces": {}`** (empty object,
