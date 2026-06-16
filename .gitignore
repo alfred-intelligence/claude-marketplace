@@ -2,3 +2,8 @@
 *.swp
 *.swo
 .claude/settings.local.json
+
+# Repo-beslutslogg synlig trots global .claude/-ignore (antas PUBLIK — inget känsligt)
+!.claude/
+.claude/*
+!.claude/DECISIONS.md
