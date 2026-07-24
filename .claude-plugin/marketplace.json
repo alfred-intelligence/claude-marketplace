@@ -34,6 +34,15 @@
         "source": "github",
         "repo": "alfred-intelligence/project-design-skill"
       }
+    },
+    {
+      "name": "shywright",
+      "description": "Default operating discipline for a shell-automation tool called shy: build durable shy commands instead of ad-hoc scripts for known-shape work, share the result as themed collections, and prove those collections are orthogonal (MECE) before trusting them.",
+      "category": "productivity",
+      "source": {
+        "source": "github",
+        "repo": "alfred-intelligence/shywright-skill"
+      }
     }
   ]
 }
